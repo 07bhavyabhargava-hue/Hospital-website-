@@ -1,457 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Care Hospital</title>
-
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <!-- ================= EMERGENCY TOP BAR ================= -->
-<div class="emergency-topbar">
-
-    <div class="emergency-left">
-        <i class="fa-solid fa-circle-exclamation"></i>
-        <span>EMERGENCY SERVICES ACTIVE 24/7</span>
-    </div>
-
-    <div class="emergency-right">
-        <span>
-            <i class="fa-solid fa-phone"></i>
-            Ambulance Hotline: <strong>911-HOSPITAL</strong>
-        </span>
-
-        <span>
-            <i class="fa-solid fa-clock"></i>
-            ER Waiting Time: <strong>&lt; 15 mins</strong>
-        </span>
-    </div>
-
- </div>
-
-    <!-- ================= NAVBAR ================= -->
-    <header class="navbar">
-        <div class="nav-container">
-
-            <div class="logo">
-                <div class="logo-icon">
-                    <i class="fa-solid fa-hospital"></i>
-                </div>
-                <div>
-                    <h3>CITY CARE</h3>
-                    <span>HOSPITAL</span>
-                </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>City Care Hospital</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="emergency-banner">
+            <div class="left">
+                <img src="Shield.png" alt="">
+                Emergency Services Active 24/7
             </div>
-
-            <nav>
-                <a href="#" class="active">Home</a>
-                <a href="#departments">Departments</a>
-                <a href="#doctors">Doctors</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </nav>
-
-            <div class="nav-right">
-                <div class="hotline">
-                    <small>DIRECT CLINIC LINE</small>
-                    <strong>(555) 019-2834</strong>
-                </div>
-
-                <button class="quick-btn">Quick Book</button>
+            <main>
+            <div class="item">
+                <img src="phone.png" alt="">
+                Ambulance Hotline :911-HOSPITAL
             </div>
-
+           <div class="seperator"></div>
+           <div class="item">
+            <img src="time.png" alt="">
+            ER waiting Time:&lt; 15 mins
+           </div>
+           </main>
+       </div>
+       <div class="top-line"></div>
+       <div class="navbar">
+        <div class="logo">
+            <div class="logo-icon">
+            <img src="logo1.png" alt="City Care Hospital logo">
+            </div>
+            <div>
+                <div class="title">CITY CARE</div>
+                <div class="sub-title">HOSPITAL</div>
+            </div>
+        </div>       
+            <div class="menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="Department.html">Departments</a>
+                <a href="#">Doctors</a>
+                <a href="#">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        <div class="right-side">
         </div>
-    </header>
-
-
-    <!-- ================= HERO ================= -->
-    <section class="hero">
-        <div class="hero-container">
-
+            <div class="phone">
+                <div class="phone-label">DIRECT CLINIC LINE</div>
+                <div class="phone-number">(555) 019-2834</div>
+            </div>
+            <button class="quick-book">Quick Book</button>
+        </div>
+        <div class="hero">
             <div class="hero-content">
-
-                <div class="badge">
-                    <span></span>
+                <div class="hero-badge">
+                    <span class="dot"></span>
                     NOW ACCEPTING NEW OUTPATIENTS
                 </div>
-
-                <h1>Your Health, Our<br>Clinical Commitment</h1>
-
-                <p>
-                    City Care Hospital pairs renowned world-class physicians
-                    with state-of-the-art diagnostic suites to bring
-                    trustworthy healthcare home to Metro City.
+                <h1 class="hero-heading">Your Health , Our Clinical Commitment</h1>
+                <p class="hero-subtext">
+                    City Care Hospital pairs renowned world-class physicians with state-of-the-art
+                    diagnosis suites to bring trustworthy healthcare home to Metro City.
                 </p>
-
                 <div class="hero-buttons">
-                    <button class="primary-btn">
-                        Schedule Appointment
-                        <i class="fa-regular fa-calendar"></i>
+                    <button class="primary">Schedule Appointment
+                        <img src="logo2.png" alt="">
                     </button>
-
-                    <button class="emergency-btn">
-                        ER Dispatch Hotline
-                        <i class="fa-solid fa-truck-medical"></i>
+                    <button class="secondary">ER Dispatch Hotline
+                        <img src="phone.png" alt="">
                     </button>
                 </div>
-
             </div>
-
             <div class="hero-image">
-                <img
-                    src="p1.png"
-                    alt="Hospital medical team">
+                <img src="photo1.png" alt="City Care Hospital medical team">
             </div>
-
         </div>
-    </section>
+        <div class="specialist-section">
+            <div class="section-header">
+                <div class="section-tag">CLINICAL EXCELLENCE</div>
+                <h2 class="section-title">Quick-Access Specialist Departments</h2>
+                <p class="section-subtext">
+                    Get immediate clinical diagnostic access,schduled elective surgery,and therapy 
+                    appointments with our world-renowed medicine teams.
+                </p>
+            </div>
+            <div class="specialist-grid">
+                <div class="specialist-card">
+                    <div class="specialist-icon">
+                        <img src="logo1.png" alt="Emergency Medicine">
+                    </div>
+                    <h3 class="specialist-title">Emergency Medicine</h3>
+                    <p class="specialist-text">Level-1 emergency response with certified clinical trauma specialists.</p>
+                    <a href="#" class="specialist-link">Explore department →</a>
+                </div>
+                <div class="specialist-card">
+                    <div class="specialist-icon">
+                        <img src="heart.png" alt="Cardiology">
+                    </div>
+                    <h3 class="specialist-title">Cardiology</h3>
+                    <p class="specialist-text">Comprehensive structural heart care, diagnostic testing & therapeutic stroke prevention.</p>
+                    <a href="#" class="specialist-link">Explore department →</a>
+                </div>
+                <div class="specialist-card">
+                    <div class="specialist-icon">
+                        <img src="bone.png" alt="Orthopedics & Spine">
+                    </div>
+                    <h3 class="specialist-title">Orthopedics & Spine</h3>
+                    <p class="specialist-text">Advanced joint replacement therapies, spinal alignment and sports rehabilitation.</p>
+                    <a href="#" class="specialist-link">Explore department →</a>
+                </div>
+                <div class="specialist-card">
+                    <div class="specialist-icon">
+                        <img src="neuro.png" alt="Neurology Clinic">
+                    </div>
+                    <h3 class="specialist-title">Neurology Clinic</h3>
+                    <p class="specialist-text">Pioneering neurological treatment for persistent tremors, brain health & rehabilitation.</p>
+                    <a href="#" class="specialist-link">Explore department →</a>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials-section">
+           <div class="testimonials-header">
+             <div class="testimonials-tag">PATIENT RECOVERY STORIES</div>
+             <h2 class="testimonials-title">What Our Satisfied Patients Say</h2>
+         </div>
 
+        <div class="testimonials">
+             <button class="previous">←</button>
+             <button class="next">→</button>
+        </div>
 
-    <!-- ================= DEPARTMENTS ================= -->
-    <section class="departments" id="departments">
+        <div class="testimonials-grid">
 
-        <div class="section-heading">
-            <span>CLINICAL EXCELLENCE</span>
-            <h2>Quick-Access Specialist Departments</h2>
-            <p>
-                Get immediate clinical diagnostic access, scheduled elective
-                surgery, and therapy appointments with our world-renowned
-                medical teams.
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+                "The emergency trauma response team saved my son's life after a sports accident.
+                The level of speed, pediatric expertise, and comforting reassurance was beyond medical grade."
             </p>
-        </div>
-
-        <div class="department-grid">
-
-            <div class="department-card">
-                <div class="card-icon pink">
-                    <i class="fa-solid fa-truck-medical"></i>
+            <div class="testimonial-author">
+                <img src="https://blog.enlightensmiles.com/wp-content/uploads/2022/07/DrMattParsons-683x1024-1.jpg" alt="">
+                <div>
+                    <div class="author-name">Arthur Pendelton</div>
+                    <div class="author-role">Parent of Pediatric Patient</div>
                 </div>
-                <h3>Emergency Medicine</h3>
-                <p>
-                    Level-1 emergency response with certified clinical trauma
-                    teams.
-                </p>
-                <a href="#">Explore department <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-
-            <div class="department-card">
-                <div class="card-icon blue">
-                    <i class="fa-solid fa-heart-pulse"></i>
-                </div>
-                <h3>Cardiology</h3>
-                <p>
-                    Comprehensive structural heart care, diagnostic testing &
-                    therapeutic stroke prevention.
-                </p>
-                <a href="#">Explore department <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-
-            <div class="department-card">
-                <div class="card-icon cyan">
-                    <i class="fa-solid fa-bone"></i>
-                </div>
-                <h3>Orthopedics & Spine</h3>
-                <p>
-                    Advanced joint replacement therapies, spinal alignment and
-                    sports rehabilitation.
-                </p>
-                <a href="#">Explore department <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-
-            <div class="department-card">
-                <div class="card-icon green">
-                    <i class="fa-solid fa-brain"></i>
-                </div>
-                <h3>Neurology Clinic</h3>
-                <p>
-                    Pioneering neurological treatment for persistent tremors,
-                    brain health & rehabilitation.
-                </p>
-                <a href="#">Explore department <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= ABOUT ================= -->
-    <section class="about" id="about">
-
-        <div class="about-container">
-
-            <div class="about-image">
-                <img
-                    src="p2.png"
-                    alt="Doctor consulting patient">
-            </div>
-
-            <div class="about-content">
-
-                <span class="small-title">TRUSTED FOR GENERATIONS</span>
-
-                <h2>
-                    A Hospital Built On Clinical Precision &
-                    Human Compassion
-                </h2>
-
-                <p>
-                    Our mission is simple: to make Metro City healthier by
-                    delivering excellent patient care, educating clinical
-                    professionals, and applying the newest research.
-                </p>
-
-                <div class="stats">
-
-                    <div class="stat-box">
-                        <strong>150+</strong>
-                        <span>Expert Physicians</span>
-                    </div>
-
-                    <div class="stat-box">
-                        <strong>350</strong>
-                        <span>Certified Patient Beds</span>
-                    </div>
-
-                    <div class="stat-box">
-                        <strong>25+</strong>
-                        <span>Years of Service</span>
-                    </div>
-
-                    <div class="stat-box">
-                        <strong>98.7%</strong>
-                        <span>Patient Satisfaction</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= TESTIMONIALS ================= -->
-    <section class="testimonials">
-
-        <div class="testimonial-heading">
-            <div>
-                <span>PATIENT RECOVERY STORIES</span>
-                <h2>What Our Satisfied Patients Say</h2>
-            </div>
-
-            <div class="slider-buttons">
-                <button>
-                    <i class="fa-solid fa-arrow-left"></i>
-                </button>
-
-                <button class="next">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </button>
             </div>
         </div>
 
-
-        <div class="testimonial-grid">
-
-            <div class="testimonial-card">
-
-                <div class="stars">
-                    ★★★★★
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+                "My bypass surgery was explained in total transparent detail. Dr. Torres and his cardiac
+                nursing team made my recovery fast, clean, and genuinely worry-free. Highly accessible rooms."
+            </p>
+            <div class="testimonial-author">
+                <img src="https://as1.ftcdn.net/v2/jpg/06/09/20/50/1000_F_609205088_tskEFm2MmHbj96zMDYWQpctsByUi5v2f.jpg" alt="">
+                <div>
+                    <div class="author-name">Eleanor Vance</div>
+                    <div class="author-role">Cardiac Outpatient</div>
                 </div>
-
-                <p>
-                    "The emergency trauma response team saved my son's life
-                    after a sports accident. The level of speed, pediatric
-                    expertise, and comforting reassurance was beyond medical
-                    grade."
-                </p>
-
-                <div class="patient">
-                    <img
-                        src="https://i.pravatar.cc/100?img=12"
-                        alt="Patient">
-                    <div>
-                        <strong>Arthur Pendleton</strong>
-                        <span>Parent of Pediatric Patient</span>
-                    </div>
-                </div>
-
             </div>
-
-
-            <div class="testimonial-card">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-                    "My bypass surgery was explained in total transparency.
-                    Dr. Torres and his cardiac nursing team made my recovery
-                    feel clean, and genuinely worry-free."
-                </p>
-
-                <div class="patient">
-                    <img
-                        src="https://i.pravatar.cc/100?img=47"
-                        alt="Patient">
-                    <div>
-                        <strong>Eleanor Warren</strong>
-                        <span>Cardiac Outpatient</span>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="testimonial-card">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-                    "Outstanding facilities with clean rooms, empathetic
-                    staff, and easily readable signage. Booking my physical
-                    rehabilitation appointments online is incredibly fast."
-                </p>
-
-                <div class="patient">
-                    <img
-                        src="https://i.pravatar.cc/100?img=11"
-                        alt="Patient">
-                    <div>
-                        <strong>Marcus Brody</strong>
-                        <span>Orthopedic Patient</span>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
 
-    </section>
-
-
-    <!-- ================= FOOTER ================= -->
-    <footer id="contact">
-
-        <div class="footer-container">
-
-            <div class="footer-about">
-
-                <div class="footer-logo">
-                    <i class="fa-solid fa-hospital"></i>
-                    <strong>CITY CARE HOSPITAL</strong>
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+                "Outstanding facilities with clean rooms, empathetic staff, and easily readable signage.
+                Booking my physical rehabilitation appointments online is incredibly fast."
+            </p>
+            <div class="testimonial-author">
+                <img src="https://img.freepik.com/free-photo/close-up-portrait-joyful-male-doctor_171337-1489.jpg" alt="">
+                <div>
+                    <div class="author-name">Marcus Brody</div>
+                    <div class="author-role">Orthopedic Patient</div>
                 </div>
-
-                <p>
-                    Providing compassionate, state-of-the-art diagnostic
-                    and clinical medical services to our urban community
-                    for over 25 years.
-                </p>
-
-                <div class="dispatch">
-                    <small>24 HOUR DISPATCH</small>
-                    <strong>011-555-HOSPITAL</strong>
-                    <span>
-                        Please call above number for
-                        immediate ambulance support.
-                    </span>
-                </div>
-
             </div>
-
-
-            <div class="footer-column">
-
-                <h4>QUICK LINKS</h4>
-
-                <a href="#">About Our Facility</a>
-                <a href="#">Our Dedicated Doctors</a>
-                <a href="#">Medical Departments</a>
-                <a href="#">Patient Portal Login</a>
-                <a href="#">Clinical Trials</a>
-                <a href="#">Career Opportunities</a>
-
+        </div>
+     </div>
+</div>
+ <footer class="footer">
+    <div class="footer-grid">
+        <div class="footer-col">
+            <div class="footer-logo">
+                <div class="footer-logo-icon">
+                    <img src="logo1.png" alt="logo1">
+                </div>
+                <h1 class="footer-logo-text">CITY CARE HOSPITAL</h1>
             </div>
+            <p class="footer-about">
+                Providing compassionate, state-of-the-art diagnostic and clinical medical
+                services to our urban community for over 25 years.
+            </p>
 
-
-            <div class="footer-column">
-
-                <h4>OPERATING HOURS</h4>
-
-                <div class="hours">
-                    <span>Emergency ER</span>
-                    <strong>24 Hours / 7 Days</strong>
-                </div>
-
-                <div class="hours">
-                    <span>Outpatient Clinic</span>
-                    <strong>7:00 AM – 9:00 PM</strong>
-                </div>
-
-                <div class="hours">
-                    <span>Radiology/Lab</span>
-                    <strong>8:00 AM – 8:00 PM</strong>
-                </div>
-
-                <div class="hours">
-                    <span>Visiting Hours</span>
-                    <strong>11:00 AM – 8:00 PM</strong>
-                </div>
-
+            <div class="dispatch-box">
+                <div class="dispatch-label">24 HOUR DISPATCH</div>
+                <div class="dispatch-number">911-HOSPITAL</div>
+                <div class="dispatch-note">Please call above number for imminstance ambulance dispatch.</div>
             </div>
-
-
-            <div class="footer-column location">
-
-                <h4>LOCATION & CONTACT</h4>
-
-                <p>
-                    742 Medical Center Plaza, Sector 4,
-                    Metro City, 110 101
-                </p>
-
-                <div class="map">
-                    <div class="map-text">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <span>Click to open navigation</span>
-                    </div>
-                </div>
-
+        </div>
+        <div class="footer-col">
+            <h4 class="footer-heading">QUICK LINKS</h4>
+            <a href="#" class="footer-link">About Our Facility</a>
+            <a href="#" class="footer-link">Our Dedicated Doctors</a>
+            <a href="#" class="footer-link">Medical Departments</a>
+            <a href="#" class="footer-link">Patient Portal Login</a>
+            <a href="#" class="footer-link">Clinical Trials</a>
+            <a href="#" class="footer-link">Career Opportunities</a>
+        </div>
+        <div class="footer-col">
+            <h4 class="footer-heading">OPERATING HOURS</h4>
+            <div class="hours-row">
+                <h5>Emergency ER</h5>
+                <time class="hours-highlight">24 Hours / 7 Days</time>
             </div>
-
+            <div class="hours-row">
+                <h5>Outpatient Clinic</h5>
+                <time>7:00 AM - 9:00 PM</time>
+            </div>
+            <div class="hours-row">
+                <h5>Radiology/Lab</h5>
+                <time>8:00 AM - 8:00 PM</time>
+            </div>
+            <div class="hours-row">
+                <h5>Visiting Hours</h5>
+                <time>11:00 AM - 8:00 PM</time>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4 class="footer-heading">LOCATION & CONTACT</h4>
+            <p class="footer-address">742 Medical Center Plaza, Sector 4, Metro City, NY 10012</p>
+            <div class="map-box">
+                <img src="map.png" alt="Hospital location map">
+                <div class="map-overlay">Click to open navigation</div>
+            </div>
         </div>
 
-
-        <div class="footer-bottom">
-
-            <span>
-                © 2026 City Care Hospital. Licensed clinical provider.
-                All Rights Reserved.
-            </span>
-
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-copyright">© 2026 City Care Hospital. Licensed clinical provider. All Rights Reserved.</div>
+        <div class="footer-socials">
+            <a href="#">
+                <img src="fb.png" alt="facebook">
+            </a>
+            <a href="#">
+                <img src="bird.png" alt="bird">
+            </a>
+            <a href="#">
+                <img src="linkedin.png" alt="linkedin">
+            </a>
+            <a href="#">
+                <img src="yt.png" alt="youtube">
+            </a>
         </div>
-
-    </footer>
-
-</body>
-
-
+    </div>
+</footer>
+    </body>
 </html>
+       
+       
